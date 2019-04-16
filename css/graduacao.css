@@ -1,0 +1,42 @@
+.graduacao-img{
+    margin-top: 100px;
+}
+.graduacao-img div{
+    width: 100%;
+    margin-bottom: 0;
+}
+.graduacao-img-img{
+    height: 170px;
+    display: block;
+    padding: 0 26%;
+}
+.graduacao-img-img img{
+    
+    width: 45%; 
+    height: 130px;
+    overflow: hidden;  
+    text-align: center;
+    
+}
+.graduacao-img-texto{
+    margin-top: 0;
+    height: auto;
+    vertical-align: top;
+    width: 63%;
+    
+}
+.graduacao-img-texto h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 100px; 
+}
+
+.graduacao-img-texto h2{
+    text-align: center;
+    font-size: 20px;
+     
+}
+.graduacao-img-texto p{
+    text-align: center;
+    padding: 0 20px;
+}
