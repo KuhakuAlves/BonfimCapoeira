@@ -1,3 +1,74 @@
+
+body{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 10px;
+}
+
+.noVisible{
+    display: none;
+}
+.swiper-container {
+    margin: 10px 10px;
+    width: 97.6%;
+    height: 500px;
+
+  }
+  @media (max-width: 680px){
+    .swiper-container {
+        height: 600px;   
+        width: 93%;
+    }    
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 1.1em;
+    background: #2b2b2b;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color:cadetblue;
+    opacity: 1;
+    background: rgba(0,0,0,0.2);
+  }
+  .swiper-pagination-bullet-active {
+    color:#ff0;
+    background: #007aff;
+  }
+
+.graduacao-opcao{
+    position:relative; 
+    top:100px;
+    width:297px!important;
+    height: 40px;
+    
+    
+    z-index: 100;
+}
+.graduacao-opcao-item{
+    color: black!important;
+}
 .graduacao-img{
     margin-top: 100px;
 }

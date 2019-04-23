@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    color: white; 
+}
+.bg-green{
+opacity: 1;
+}
+.bg-white{
+opacity: 0.5;
+}
+.card{
+    background-color: #262626;
+    color: white;
+    margin: 1% 30px;
+    float: left;
+    width: 30%;
+    box-shadow: 5px 5px 8px blue;
+}
+.clear{
+    clear: both;
+}
+@media (max-width: 680px){
+    .card {
+        width: 90%;   
+    }    
+  }
+

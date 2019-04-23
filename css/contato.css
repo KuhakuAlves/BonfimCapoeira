@@ -10,7 +10,7 @@
   }
   .contato-secao h1{
     text-align: center;
-    color: #ddd;
+    color: black;
   }
   .borda{
     width: 100px;
@@ -32,14 +32,14 @@
     box-sizing: border-box;
     margin: 16px 0;
     border: 0;
-    background: #111;
+    background: #ff8d009e;
     padding: 20px 40px;
     outline: none;
-    color: #ddd;
+    color: white;
     transition: 0.5s;
   }
   .contato-form-text:focus{
-    box-shadow: 0 0 10px 4px #34495e;
+    box-shadow: 0 0 10px 4px #723f0188;
   }
   textarea.contato-form-text{
     resize: none;
