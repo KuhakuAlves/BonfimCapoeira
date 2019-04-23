@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+  }
+  .contato-secao{
+    background: url(bg.png) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+  }
+  .contato-secao h1{
+    text-align: center;
+    color: black;
+  }
+  .borda{
+    width: 100px;
+    height: 10px;
+    background: #34495e;
+    margin: 40px auto;
+  }
+  
+  .contato-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contato-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #ff8d009e;
+    padding: 20px 40px;
+    outline: none;
+    color: white;
+    transition: 0.5s;
+  }
+  .contato-form-text:focus{
+    box-shadow: 0 0 10px 4px #723f0188;
+  }
+  textarea.contato-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contato-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contato-form-btn:hover{
+    background: #2980b9;
+  }
+  .mapa{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    padding: 0 35%;
+    margin-bottom: 10px;
+  }
+  .google-maps {
+    text-align: center;
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+    }
+    .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    }
+  

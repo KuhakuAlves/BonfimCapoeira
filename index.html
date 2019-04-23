@@ -5,28 +5,111 @@
     <meta name="viewport" content="width-device-width, initial-scale-1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/w3.css">
+    <script type="text/javascript" src="js/menucelular.js"></script>
 </head>
 
 <body>
-    <div id="Navegacao" class="menu">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="historia.html">História</a></li>
-            <li><a href="graduacao.html">Graduação</a></li>
-            <li><a href="eventos.html">Eventos</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li id="threeline-icon" class="threeline-icon">&#9776;</li>
-        </ul>
-    </div>
-    <div class="Capa">
-        <div class="ImgMain">
-            <img src="img/capa.jpg" alt="Foto do Grupo Nosso Senhor do Bonfim">
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo_min.jpg" alt="Logo" />
+            </a>
         </div>
-        <div class="NomeGrupo">
-            <h1>Grupo Nosso Senhor do Bonfim</h1>
-            <h2>Grupo de Capoeira liderado pelo Mestre Kauê - Jundiaí/SP</h2>
+        <button class="menu-toggle" onclick="menuMobile()">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="historia.html">História</a></li>
+                <li><a href="graduacao.html">Graduação</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <nav id="menu-mobile" class="menu-mobile">
+            <a href="index.html">Home</a>
+            <a href="historia.html">História</a>
+            <a href="graduacao.html">Graduação</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <div class="Capa">
+            <div class="ImgMain">
+                <img src="img/capa.jpg" alt="Foto do Grupo Nosso Senhor do Bonfim">
+            </div>
+            <div class="NomeGrupo">
+                <h1>Grupo Nosso Senhor do Bonfim</h1>
+                <h2>Grupo de Capoeira liderado pelo Mestre Kauê - Jundiaí/SP</h2>
+            </div>
         </div>
-    </div>
+    </main>
+    <footer class="w3-container footer">
+        <div class="footer__content">
+            <div class="container">
+                <div class="row">
+                    <div class="w3-third ">
+                        <div class="site-info w3-center"><a class="logo" href="index.html"><img
+                                    style="border-radius:100%;" src="img/capa_mini.jpg" alt=""></a>
+                            <p>Somos especializados no ensino da Capoeira e todas as vertentes culturais envolvidas.</p>
+                            <ul class="list--social ">
+                                <li><a href="https://www.facebook.com/capoeirabonfimjundiai/" target="_blank"><i
+                                            class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=5511982784096&amp;text=Ol%C3%A1"
+                                        target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.instagram.com/capoeirabonfimjundiai/?hl=pt-br"
+                                        target="_blank"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w3-third ">
+                        <form class="form--subscribe-offer">
+                            <h4>Mantenha se informado com as atualizações da Academia</h4>
+                            <div class="form-group">
+                                <input id="#email" class="form-control" type="text" placeholder="Seu Email...">
+                                <button onclick="EnviaEmail()">Enviar</button>
+                            </div>
+                        </form>
+                        <div class="footer__contact">
+                            <h4>Entre em contato</h4>
+                            <p>Rua José Dainese, 105, Vila Municipal,
+                                CEP: 13201-300 Jundiaí</p>
+                            <P>(11) 98278-4096</P>
+                        </div>
+                    </div>
+                    <div class="w3-third ">
+                        <div class="footer__horario" style="color:white;">
+                            <h4>Horarios de Treino</h4>
+
+                            <p>
+                                Terça, Quinta:
+                                <br>08:00 am - 09:30 am <br>
+                                18:30 am - 19:30 pm <br>
+
+                                <br>Sabádo:<br>
+                                15:00 pm - 17:00 pm<br>
+                                <br>Domingo<br>
+                                09:00 - 11:30 am
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="container">
+                <p>
+                    © Copyright by <strong>Bonfim Capoeira</strong>. Design by<a href="http://www.alvesrr.com.br"> Alves
+                        Web.</a></p>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
