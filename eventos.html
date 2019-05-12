@@ -2,34 +2,47 @@
 <html>
 
 <head>
-    <meta name="viewport" content="width-device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/eventos.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="js/menucelular.js"></script>
 
 </head>
 
 <body>
-    <header>
-
-        <div id="Navegacao" class="menu">
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo_min.jpg" alt="Logo" />
+            </a>
+        </div>
+        <button class="menu-toggle" onclick="menuMobile()">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="historia.html">História</a></li>
                 <li><a href="graduacao.html">Graduação</a></li>
                 <li><a href="eventos.html">Eventos</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li id="threeline-icon" class="threeline-icon">&#9776;</li>
             </ul>
-        </div>
+        </nav>
     </header>
     <main>
 
-
+        <nav id="menu-mobile" class="menu-mobile">
+            <a href="index.html">Home</a>
+            <a href="historia.html">História</a>
+            <a href="graduacao.html">Graduação</a>
+            <a href="eventos.html">Eventos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
         <div class="container-card ">
             <h1 style="padding-left: 43px;">Calendário de eventos da Bonfim capoeira</h1>
             <div class="w3-card-4 card w3-center" data="19/01/2019">
@@ -109,8 +122,8 @@
                                             class="fab fa-facebook"></i></a></li>
                                 <li><a href="https://api.whatsapp.com/send?phone=5511982784096&amp;text=Ol%C3%A1"
                                         target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="https://www.instagram.com/capoeirabonfimjundiai/?hl=pt-br" target="_blank"><i
-                                            class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/capoeirabonfimjundiai/?hl=pt-br"
+                                        target="_blank"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

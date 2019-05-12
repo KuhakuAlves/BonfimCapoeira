@@ -24,35 +24,7 @@
     content: "";
     display: table;
   }
-  
-  @media (min-width: 320px) {
-    .container {
-      margin: 0 auto;
-      width: 100%;
-      padding: 0 15px;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      width: 100%;
-      padding: 0 30px;
-    }
-  }
-  
-  @media (min-width: 1440px) {
-    .container {
-      width: 1440px;
-    }
-  }
 
-  @media (max-width: 1199px) {
-    .container {
-      position: static;
-      padding: 0 15px;
-      padding-right: 0;
-    }
-}
 
 .row {
     margin: 0 -15px;
@@ -68,41 +40,6 @@
     float: left;
     width: 20%;
     padding: 0 15px;
-  }
-  
-  @media (max-width: 1600px) {
-    .row .column {
-      width: 25%;
-    }
-  }
-  
-  @media (max-width: 991px) {
-    .row .column {
-      width: calc(100% / 3);
-    }
-  }
-  
-  @media (max-width: 767px) {
-    .row .column {
-      width: calc(100% / 2);
-    }
-  }
-  
-  @media (max-width: 479px) {
-    .row .column {
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .col-lg-4 {
-      width: 50%;
-    }
-  }
-  @media (min-width: 1440px) {
-    .col-lg-4 {
-      width: 33.33333%;
-    }
   }
 
   .list--social li {
@@ -173,11 +110,6 @@
   }
   
 
-  @media (max-width: 479px) {
-    .list--social {
-      display: none;
-    }
-  }
   
   .list--social {
     margin-bottom: 30px;
@@ -254,20 +186,6 @@
     text-align: center;
   }
   
-  @media (max-width: 1199px) {
-    .footer .footer__contact {
-      margin-bottom: 30px;
-    }
-    .footer .form--subscribe-offer {
-      margin-bottom: 30px;
-    }
-    .footer .footer__open h4 {
-      margin-bottom: 10px;
-    }
-    .footer .ps-site-info {
-      margin-bottom: 30px;
-    }
-  }
   
   .footer--2 .ps-logo {
     margin-bottom: 25px;
@@ -350,18 +268,7 @@
   
   .footer--2 .footer__copyright p a:hover {
     color: #fff;
-  }
-  
-  @media (max-width: 479px) {
-    .footer--2 .btn {
-      width: 100%;
-      -webkit-border-radius: 0;
-      -moz-border-radius: 0;
-      -ms-border-radius: 0;
-      border-radius: 0;
-    }
-  }
-  
+  } 
   
   .form-group--inline .form-group__content {
     float: left;
@@ -411,14 +318,114 @@
     border-radius: 0 50px 50px 0;
 }
 
+.form--subscribe-offer p,h4 {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+/*****/
+@media (max-width: 1600px) {
+  .row .column {
+    width: 25%;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .container {
+    width: 1440px;
+  }
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-4 {
+    width: 50%;
+  }
+}
+@media (max-width: 1199px) {
+  .container {
+    position: static;
+    padding: 0 15px;
+    padding-right: 0;
+  }
+  .footer .footer__contact {
+    margin-bottom: 30px;
+  }
+  .footer .form--subscribe-offer {
+    margin-bottom: 30px;
+  }
+  .footer .footer__open h4 {
+    margin-bottom: 10px;
+  }
+  .footer .ps-site-info {
+    margin-bottom: 30px;
+  }  
+}
+
+@media (max-width: 991px) {
+  .row .column {
+    width: calc(100% / 3);
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+@media (max-width: 767px) {
+  .row .column {
+    width: calc(100% / 2);
+  }
+}
+
   @media (max-width:680px){
     .form--subscribe-offer .form-group button {
         width: 90px;  
     }
   }
 
-  .form--subscribe-offer p,h4 {
-    margin-bottom: 0;
-    font-size: 14px;
-    color: #fff;
+  @media (max-width: 479px) {
+    .footer--2 .btn {
+      width: 100%;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      -ms-border-radius: 0;
+      border-radius: 0;
+    }
+    .row .column {
+      width: 100%;
+    }
+    .list--social {
+      display: none;
+    }
+    .w3-third .form--subscribe-offer .form-group{
+       display: inline-block; 
+    }
+    .w3-third .form--subscribe-offer .form-group button{
+      border-radius: 50px;
+      width: 150px;
+      left:15px;
+      top:45px;
+  }
+
+
+  @media (min-width: 320px) {
+    .container {
+      margin: 0 auto;
+      width: 100%;
+      padding: 0 15px;
+    }
   }
